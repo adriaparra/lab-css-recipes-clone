@@ -1,3 +1,61 @@
-*{
-    background-color: blue;
-}
+html {
+    font-family: 'verdana';
+    font-size: 22px;
+  }
+
+  .cover{
+    background-position: 0,0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1500px;
+    height: 650px;
+  }
+
+  h1{
+    padding: 100px 200px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-left:380px;
+    top: 120px;
+    font-family: 'verdana';
+    font-weight: lighter;
+    font-size: 60px;
+    color: white;
+  }
+  
+  .description{
+    margin: 50px 220px 0px;
+  }
+  
+  .recipeInfo{
+    margin: 20px 550px;
+    width: 420px;
+  }
+  
+  .line{
+    margin: 30px 180px;
+    border-bottom: solid 2px grey;
+  }
+
+  .ingredients{
+    margin: 0px 220px 20px 220px;
+  }
+  
+  .ingredientsList{
+    list-style-type: '- ';
+    margin: 20px 220px;
+  }
+
+  .cookingInfo{
+    margin: 20px 550px;
+    width: 420px;
+  }
+
+  .directions{
+    margin: 50px 220px 0px;
+  }
+
+  .directionsList{
+    margin: 20px 220px 80px;;
+  }
